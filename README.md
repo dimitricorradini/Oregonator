@@ -2,11 +2,11 @@
 We attempt an explicit implementation of the Runge-Kutta 4th order integrator in order to approxi- mate solutions to the Oregonator model, invented in 1974 to describe the very weird (and beauti- ful) Belousov-Zhabotinsky reaction, which famously displays oscillating behaviour between differ- ent chemical species for some values of its parameters. At the heart of the model lie the following equations, which constitute a nonlinear system in three variables:
 
 
-$dX =k1*A*Y+k3*A*X-k2*X*Y-2k4X2 dt$
+dX =k1*A*Y+k3*A*X-k2*X*Y-2k4X2 dt
 
-$dY = -k1 * A * Y - k3 * X * Y + f * k5 * B * Z dt 2$
+dY = -k1 * A * Y - k3 * X * Y + f * k5 * B * Z dt 2
 
-$dZ = 2 * k2 * A * X - k5 * B * Z$
+dZ = 2 * k2 * A * X - k5 * B * Z
 
 Where X, Y, Z represent (molar) concentrations of the chemical species, and respectively, ki are kinetic rates, A and B are concentrations of other reagents (assumed as constant) and f is an adjustable stoichiometric factor.
 
