@@ -25,3 +25,5 @@ Where x(t) is the state of the system at time t.
 Finally, we can approximate the value of x(t+h) by computing
 x(t+h) = x(t)+ h/6 (t1 +2 t2+2 t3+ t4)
 It can be shown that the error in this approximation amounts to O(h4).
+
+Project for Collegio Superiore, Compartmental Models: from ecology to epidemic spreading, 2020/21
